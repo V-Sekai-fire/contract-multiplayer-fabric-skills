@@ -4,7 +4,7 @@ A library of agent skills, each a standalone procedure document, for building an
 
 ## What it is for
 
-Each directory under `skills/` is one skill, usually a `SKILL.md` whose front matter names it and says when to use it, followed by the procedure. Skills do not depend on one another, so an agent can load any one alone.
+Each directory under `skills/` is one skill, usually a `SKILL.md` whose front matter names it and says when to use it, followed by the procedure. A skill may name others it builds on, such as `branch-versioning` or `ci-check`.
 
 ## Use
 
