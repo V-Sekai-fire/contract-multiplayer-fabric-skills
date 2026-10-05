@@ -1,19 +1,15 @@
-# multiplayer-fabric-skills
+# contract-multiplayer-fabric-skills
 
-Skills library for V-Sekai multiplayer-fabric agents.
+A library of agent skills, each a standalone procedure document, for building and testing the V-Sekai multiplayer fabric.
 
-A skill is a self-contained, reusable behaviour unit that zone_console,
-zone backend workers, or Godot zone processes can call to accomplish a
-discrete task (e.g., upload an asset, instance a scene, query a shard list).
+## What it is for
 
-## Structure
+Each directory under `skills/` is one skill, usually a `SKILL.md` whose front matter names it and says when to use it, followed by the procedure. Skills do not depend on one another, so an agent can load any one alone.
 
-Skills live in `skills/`. Each file is standalone with no cross-skill imports.
+## Use
 
-## Usage
+Copy or link a skill's directory into the skills folder of the agent that should use it.
 
-Add as a dependency in `mix.exs`:
+## Licence
 
-```elixir
-{:multiplayer_fabric_skills, github: "V-Sekai-fire/multiplayer-fabric-skills"}
-```
+There is no repository licence file. Most skills declare MIT in their front matter; a skill without that field states no licence.
