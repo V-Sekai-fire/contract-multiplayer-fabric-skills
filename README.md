@@ -12,4 +12,4 @@ Copy or link a skill's directory into the skills folder of the agent that should
 
 ## Licence
 
-There is no repository licence file. Most skills declare MIT in their front matter; a skill without that field states no licence.
+MIT. See [LICENSE](LICENSE).
